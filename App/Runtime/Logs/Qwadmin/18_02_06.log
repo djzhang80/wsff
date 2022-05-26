@@ -1,0 +1,1015 @@
+[ 2018-02-06T15:41:42+08:00 ] ::1 /wms/qwadmin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+
+[ 2018-02-06T15:41:42+08:00 ] ::1 /wms/index.php/Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined variable: current E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.308451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.308640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013749s ]
+
+[ 2018-02-06T15:41:43+08:00 ] ::1 /wms/index.php/Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2018-02-06T15:41:45+08:00 ] ::1 /wms/index.php/Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0387s ]
+SQL: SELECT `uid`,`user` FROM `qw_member` WHERE `user` = 'admin' AND `password` = '66d6a1c8748025462128dc75bf5ae8d1' LIMIT 1   [ RunTime:0.0021s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\LoginController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0320s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Common\function.php 第 12 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0074s ]
+SQL: SELECT `user` FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: INSERT INTO `qw_log` (`name`,`t`,`ip`,`log`) VALUES ('admin','1517902905','::1','登录成功。') [ RunTime:0.0468s ]
+
+[ 2018-02-06T15:41:47+08:00 ] ::1 /wms/index.php/Qwadmin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0607s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0024s ]
+SQL: select guage_id,guage_name from qw_guage where guage_type=0 [ RunTime:0.1154s ]
+SQL: select guage_id,guage_name from qw_guage where guage_type=1 [ RunTime:0.0007s ]
+SQL: select guage_id,guage_name from qw_guage where guage_type=2 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_meteorology_scen` [ RunTime:0.0462s ]
+SQL: SHOW COLUMNS FROM `qw_temp_scen` [ RunTime:0.0688s ]
+SQL: SHOW COLUMNS FROM `qw_scenario` [ RunTime:0.0525s ]
+SQL: SELECT `scen_id`,`scen_name` FROM `qw_scenario`  [ RunTime:0.0016s ]
+SQL: SELECT `scen_id`,`scen_name` FROM `qw_meteorology_scen` WHERE ( idata=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `scen_id`,`scen_name` FROM `qw_temp_scen` WHERE ( idata=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.218744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.218879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2018-02-06T15:41:50+08:00 ] ::1 /wms/qwadmin/index/getdatas?pvar=1&guage=1&scens=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/getdatas' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qw_scenario` [ RunTime:0.0030s ]
+SQL: SELECT `scen_name`,`scen_type`,`scen_desc`,`is_base` FROM `qw_scenario` WHERE ( scen_id in(2) )  [ RunTime:0.0004s ]
+
+[ 2018-02-06T15:41:51+08:00 ] ::1 /wms/index.php/Qwadmin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0036s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0012s ]
+SQL: select guage_id,guage_name from qw_guage where guage_type=0 [ RunTime:0.0005s ]
+SQL: select guage_id,guage_name from qw_guage where guage_type=1 [ RunTime:0.0004s ]
+SQL: select guage_id,guage_name from qw_guage where guage_type=2 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_meteorology_scen` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `qw_temp_scen` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `qw_scenario` [ RunTime:0.0038s ]
+SQL: SELECT `scen_id`,`scen_name` FROM `qw_scenario`  [ RunTime:0.0010s ]
+SQL: SELECT `scen_id`,`scen_name` FROM `qw_meteorology_scen` WHERE ( idata=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `scen_id`,`scen_name` FROM `qw_temp_scen` WHERE ( idata=1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000522s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000768s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2018-02-06T15:41:53+08:00 ] ::1 /wms/qwadmin/index/getdatas?pvar=1&guage=1&scens=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/getdatas' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0035s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qw_scenario` [ RunTime:0.0027s ]
+SQL: SELECT `scen_name`,`scen_type`,`scen_desc`,`is_base` FROM `qw_scenario` WHERE ( scen_id in(2) )  [ RunTime:0.0007s ]
+
+[ 2018-02-06T15:42:01+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/index' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0038s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_auth_rule` LIMIT 1   [ RunTime:0.0239s ]
+SQL: SELECT * FROM `qw_auth_rule` ORDER BY o asc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined variable: page E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\eb4ac1ef728a7e35df7d77a31dc742f3.php 第 477 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2018-02-06T15:42:05+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0901s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/add' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0034s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qw_auth_rule` ORDER BY o ASC  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 401 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 405 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 424 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 436 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 449 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 461 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 475 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 486 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2018-02-06T15:42:30+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/update' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0012s ]
+SQL: INSERT INTO `qw_auth_rule` (`pid`,`title`,`name`,`icon`,`islink`,`status`,`o`,`tips`) VALUES ('1','cesium','Cesium/index','','0','1','0','') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0030s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Common\function.php 第 12 行.
+SQL: SELECT `user` FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `qw_log` (`name`,`t`,`ip`,`log`) VALUES ('admin','1517902950','::1','新增菜单，名称：cesium') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2018-02-06T15:42:32+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/add' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0034s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qw_auth_rule` ORDER BY o ASC  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 401 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 405 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 408 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 411 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 424 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 436 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 449 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 461 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 475 行.
+NOTIC: [8] Undefined variable: currentmenu E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 486 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2018-02-06T15:42:41+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/index' [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0082s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_auth_rule` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_auth_rule` ORDER BY o asc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: page E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\eb4ac1ef728a7e35df7d77a31dc742f3.php 第 477 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2018-02-06T15:42:46+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/edit/id/93.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/index' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qw_auth_rule` WHERE ( id='93' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_auth_rule` ORDER BY o ASC  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2018-02-06T15:42:49+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/update' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0031s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: UPDATE `qw_auth_rule` SET `pid`='1',`title`='cesium',`name`='Cesium/index',`icon`='',`islink`='1',`status`='1',`o`='0',`tips`='' WHERE ( id='93' ) [ RunTime:0.0264s ]
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0035s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Common\function.php 第 12 行.
+SQL: SELECT `user` FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `qw_log` (`name`,`t`,`ip`,`log`) VALUES ('admin','1517902969','::1','编辑菜单，ID：93') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2018-02-06T15:42:52+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/edit/id/93.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/index' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_auth_rule` WHERE ( id='93' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_auth_rule` ORDER BY o ASC  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2018-02-06T15:42:55+08:00 ] ::1 /wms/index.php/Qwadmin/Cesium/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Cesium/index' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0033s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: pguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 595 行.
+NOTIC: [8] Undefined variable: pscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 606 行.
+NOTIC: [8] Undefined variable: tguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 616 行.
+NOTIC: [8] Undefined variable: tscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 627 行.
+NOTIC: [8] Undefined variable: guages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 637 行.
+NOTIC: [8] Undefined variable: scens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2018-02-06T15:54:38+08:00 ] ::1 /wms/index.php/Qwadmin/Cesium/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Cesium/index' [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000558s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000967s ]
+NOTIC: [8] Undefined variable: pguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 595 行.
+NOTIC: [8] Undefined variable: pscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 606 行.
+NOTIC: [8] Undefined variable: tguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 616 行.
+NOTIC: [8] Undefined variable: tscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 627 行.
+NOTIC: [8] Undefined variable: guages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 637 行.
+NOTIC: [8] Undefined variable: scens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2018-02-06T20:14:04+08:00 ] ::1 /wms/qwadmin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+
+[ 2018-02-06T20:14:04+08:00 ] ::1 /wms/index.php/Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: current E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2018-02-06T20:14:04+08:00 ] ::1 /wms/index.php/Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2018-02-06T20:14:07+08:00 ] ::1 /wms/index.php/Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0509s ]
+SQL: SELECT `uid`,`user` FROM `qw_member` WHERE `user` = 'admin' AND `password` = '66d6a1c8748025462128dc75bf5ae8d1' LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\LoginController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0200s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Common\function.php 第 12 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0043s ]
+SQL: SELECT `user` FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `qw_log` (`name`,`t`,`ip`,`log`) VALUES ('admin','1517919247','::1','登录成功。') [ RunTime:0.0110s ]
+
+[ 2018-02-06T20:14:08+08:00 ] ::1 /wms/index.php/Qwadmin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0393s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0031s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0009s ]
+SQL: select guage_id,guage_name from qw_guage where guage_type=0 [ RunTime:0.0718s ]
+SQL: select guage_id,guage_name from qw_guage where guage_type=1 [ RunTime:0.0005s ]
+SQL: select guage_id,guage_name from qw_guage where guage_type=2 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_meteorology_scen` [ RunTime:0.0805s ]
+SQL: SHOW COLUMNS FROM `qw_temp_scen` [ RunTime:0.0348s ]
+SQL: SHOW COLUMNS FROM `qw_scenario` [ RunTime:0.0460s ]
+SQL: SELECT `scen_id`,`scen_name` FROM `qw_scenario`  [ RunTime:0.0009s ]
+SQL: SELECT `scen_id`,`scen_name` FROM `qw_meteorology_scen` WHERE ( idata=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `scen_id`,`scen_name` FROM `qw_temp_scen` WHERE ( idata=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-06T20:14:12+08:00 ] ::1 /wms/qwadmin/index/getdatas?pvar=1&guage=1&scens=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/getdatas' [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0032s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_scenario` [ RunTime:0.0032s ]
+SQL: SELECT `scen_name`,`scen_type`,`scen_desc`,`is_base` FROM `qw_scenario` WHERE ( scen_id in(2) )  [ RunTime:0.0007s ]
+
+[ 2018-02-06T20:20:25+08:00 ] ::1 /wms/index.php/Qwadmin/Cesium/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Cesium/index' [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8] Undefined variable: pguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 595 行.
+NOTIC: [8] Undefined variable: pscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 606 行.
+NOTIC: [8] Undefined variable: tguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 616 行.
+NOTIC: [8] Undefined variable: tscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 627 行.
+NOTIC: [8] Undefined variable: guages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 637 行.
+NOTIC: [8] Undefined variable: scens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2018-02-06T20:20:36+08:00 ] ::1 /wms/index.php/Qwadmin/Cesium/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Cesium/index' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Undefined variable: pguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 595 行.
+NOTIC: [8] Undefined variable: pscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 606 行.
+NOTIC: [8] Undefined variable: tguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 616 行.
+NOTIC: [8] Undefined variable: tscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 627 行.
+NOTIC: [8] Undefined variable: guages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 637 行.
+NOTIC: [8] Undefined variable: scens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005135s ]
+
+[ 2018-02-06T20:21:27+08:00 ] ::1 /wms/index.php/Qwadmin/Cesium/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Cesium/index' [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8] Undefined variable: pguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 595 行.
+NOTIC: [8] Undefined variable: pscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 606 行.
+NOTIC: [8] Undefined variable: tguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 616 行.
+NOTIC: [8] Undefined variable: tscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 627 行.
+NOTIC: [8] Undefined variable: guages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 637 行.
+NOTIC: [8] Undefined variable: scens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2018-02-06T20:21:41+08:00 ] ::1 /wms/index.php/Qwadmin/Cesium/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Cesium/index' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: pguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 595 行.
+NOTIC: [8] Undefined variable: pscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 606 行.
+NOTIC: [8] Undefined variable: tguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 616 行.
+NOTIC: [8] Undefined variable: tscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 627 行.
+NOTIC: [8] Undefined variable: guages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 637 行.
+NOTIC: [8] Undefined variable: scens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2018-02-06T20:24:40+08:00 ] ::1 /wms/index.php/Qwadmin/Cesium/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Cesium/index' [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0036s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000804s ]
+NOTIC: [8] Undefined variable: pguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 595 行.
+NOTIC: [8] Undefined variable: pscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 606 行.
+NOTIC: [8] Undefined variable: tguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 616 行.
+NOTIC: [8] Undefined variable: tscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 627 行.
+NOTIC: [8] Undefined variable: guages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 637 行.
+NOTIC: [8] Undefined variable: scens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2018-02-06T20:25:50+08:00 ] ::1 /wms/index.php/Qwadmin/Cesium/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0038s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Cesium/index' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0067s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined variable: pguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 595 行.
+NOTIC: [8] Undefined variable: pscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 606 行.
+NOTIC: [8] Undefined variable: tguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 616 行.
+NOTIC: [8] Undefined variable: tscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 627 行.
+NOTIC: [8] Undefined variable: guages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 637 行.
+NOTIC: [8] Undefined variable: scens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2018-02-06T20:26:11+08:00 ] ::1 /wms/index.php/Qwadmin/Cesium/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0031s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Cesium/index' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined variable: pguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 595 行.
+NOTIC: [8] Undefined variable: pscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 606 行.
+NOTIC: [8] Undefined variable: tguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 616 行.
+NOTIC: [8] Undefined variable: tscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 627 行.
+NOTIC: [8] Undefined variable: guages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 637 行.
+NOTIC: [8] Undefined variable: scens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2018-02-06T20:27:29+08:00 ] ::1 /wms/index.php/Qwadmin/Cesium/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Cesium/index' [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined variable: pguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 595 行.
+NOTIC: [8] Undefined variable: pscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 606 行.
+NOTIC: [8] Undefined variable: tguages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 616 行.
+NOTIC: [8] Undefined variable: tscens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 627 行.
+NOTIC: [8] Undefined variable: guages E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 637 行.
+NOTIC: [8] Undefined variable: scens E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\772f2270c362016197b676c6c3232a2f.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+

@@ -1,0 +1,23 @@
+Project: 780828
+     Description: HMS model created with HEC-GeoHMS v1.1 for NewProj study area
+     Version: 4.0
+     Filepath Separator: \
+     DSS File Name: 780828.dss
+     Time Zone ID: Asia/Shanghai
+End:
+
+Precipitation: Met 1
+     FileName: Met_1.met
+     Description: 
+End:
+
+Basin: NewProj
+     FileName: NewProj.basin
+     Description: Basin model created with HEC-GeoHMS v1.1 Beta
+End:
+
+Control: Control 1
+     FileName: Control_1.control
+     Description: 
+End:
+

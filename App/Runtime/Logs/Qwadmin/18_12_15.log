@@ -1,0 +1,83 @@
+[ 2018-12-15T20:30:22+08:00 ] ::1 /wms/qwadmin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002567s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 114 行.
+
+[ 2018-12-15T20:30:22+08:00 ] ::1 /wms/index.php/Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000716s ]
+NOTIC: [8] Undefined variable: current E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003233s ]
+
+[ 2018-12-15T20:30:22+08:00 ] ::1 /wms/index.php/Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002157s ]
+
+[ 2018-12-15T20:30:29+08:00 ] ::1 /wms/index.php/Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\LoginController.class.php 第 52 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Common\function.php 第 12 行.
+
+[ 2018-12-15T20:30:31+08:00 ] ::1 /wms/index.php/Qwadmin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000799s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.234805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.235188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001874s ]
+
+[ 2018-12-15T20:30:33+08:00 ] ::1 /wms/qwadmin/index/getdatas?pvar=1&guage=1&scens=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 63 行.
+

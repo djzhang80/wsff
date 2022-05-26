@@ -1,0 +1,3 @@
+r__precipitation(){2001001-2010365}.pcp1.pcp -0.1
+a__maxtemp(){2001001-2010365}.tmp1.tmp 3
+a__mintemp(){2001001-2010365}.tmp1.tmp 3

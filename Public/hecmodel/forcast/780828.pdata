@@ -1,0 +1,38 @@
+Paired Data Manager: 780828
+     Version: 4.0
+     Filepath Separator: \
+End:
+
+Table: e-s
+     Table Type: Elevation-Storage
+     Last Modified Date: 4 September 2015
+     Last Modified Time: 09:09:30
+     X-Units: M
+     Y-Units: THOU M3
+     Use External DSS File: NO
+     DSS File: 780828.dss
+     Pathname: //e-s/ELEVATION-STORAGE///TABLE/
+End:
+
+Table: s-d
+     Table Type: Storage-Outflow
+     Last Modified Date: 3 August 2015
+     Last Modified Time: 03:03:37
+     X-Units: THOU M3
+     Y-Units: M3/S
+     Use External DSS File: NO
+     DSS File: 780828.dss
+     Pathname: //s-d/STORAGE-FLOW///TABLE/
+End:
+
+Table: e-d
+     Table Type: Stage-Flow
+     Last Modified Date: 3 August 2015
+     Last Modified Time: 03:03:37
+     X-Units: M
+     Y-Units: M3/S
+     Use External DSS File: NO
+     DSS File: 780828.dss
+     Pathname: //e-d/STAGE-FLOW///TABLE/
+End:
+

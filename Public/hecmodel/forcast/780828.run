@@ -1,0 +1,13 @@
+Run: Run 1
+     Default Description: Yes
+     Log File: Run_1.log
+     DSS File: output_realtime.dss
+     Basin: NewProj
+     Precip: Met 1
+     Control: Control 1
+     Precip Last Execution Date: 28 September 2020
+     Precip Last Execution Time: 07:19:16
+     Basin Last Execution Date: 28 September 2020
+     Basin Last Execution Time: 07:19:16
+End:
+

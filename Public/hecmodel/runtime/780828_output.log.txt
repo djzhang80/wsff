@@ -1,0 +1,208 @@
+
+E:\php\Apache24\htdocs\wms>c:
+
+C:\>cd C:\HEC\HEC-DSSVue\ 
+
+C:\HEC\HEC-DSSVue>HEC-DSSVue.cmd E:/php/Apache24/htdocs/wms/Public/hecmodel//runtime/780828.py 
+
+C:\HEC\HEC-DSSVue>java\bin\java -ms64M -mx1000M -Dpython.path=jar\sys\jythonLib.jar\lib;jar\sys\jythonUtils.jar -Dpython.home="C:\WINDOWS\TEMP" -DPLUGINS=Plugins -Djava.library.path=lib -Dproperties.path=config\properties -Djava.security.policy=config\java.policy -Dsun.java2d.noddraw -Dsun.java2d.d3d=false -Dlogfile.directory="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\logs" -DLOGFILE="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\logs\HEC-DSSVue.log" -DCACHE_DIR="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\pythonCache" -Dscripts.directory="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\scripts" -DCWMS_HOME="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue" -Dv2  -cp Plugins\ChartPlugin.jar;Plugins\DssutlImportExport.jar;Plugins\ExcelDssVuePlugin.jar;Plugins\NCDC.jar;Plugins\RiverGages.jar;Plugins\TimeSeriesWiz.jar;Plugins\USGS.jar;Plugins\WaterML.jar;Plugins\ChartPlugin.jar;jar\help\dssvueHelp.jar;jar\hec.jar;jar\gridUtil.jar;jar\hecdata.jar;jar\rma.jar;jar\images.jar;jar\heclib.jar;jar\sys\jdom.jar;jar\sys\jh.jar;jar\sys\jfreechart.jar;jar\sys\jcommon.jar;jar\sys\jai_core.jar;jar\sys\jai_imageio.jar;jar\sys\jai_codec.jar;jar\sys\jxl.jar;jar\sys\jythonUtils.jar;jar\sys\jythonlib.jar;jar\sys\jython.jar;jar\sys\codebase.jar; hec.dssgui.HecDssVue E:/php/Apache24/htdocs/wms/Public/hecmodel//runtime/780828.py 
+Version stamp is 2.0.0.17G date 2010.02.09.04.41 
+::::::::
+::
+:: Initializing Jython interpreter environment.
+:: Application home variable = CWMS_HOME
+:: CWMS_HOME = C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue
+:: Jython script path = jar\sys\jythonLib.jar\lib;jar\sys\jythonUtils.jar
+::
+::::::::
+Debug off; no logging properties file: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue/config/properties/logger.properties
+    -----DSS---ZOPEN:  Existing File Opened,  File: E:/php/Apache24/htdocs/wms/Public/hecmodel/780828/1978.dss
+                       Unit:   71;  DSS Versions - Software: 6-QF, File: 6-ND
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/DAZHONG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/DONGGUAN/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/HONGLAI/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/HUANGYANG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/HUYANG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/JINXI/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/LUOZHONG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/PENGHU/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/SHANMEI/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/SHANTOU/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/SHILONG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/WEICUO/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/XITOUPU/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/YONGCHUN/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/ANXI/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/CHANGHONG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/GANDE/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/GUANQIAO/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/HUTOU/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/KENGZIKOU/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/LINGJIAO/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/LUOZAI/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/NANAN/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/PENGLAI/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/SHANGQING/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/TAOZHOU/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/XIANRONG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/XIPING/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/XITA/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/YINGDOU/PRECIP-INC/01AUG1978/1HOUR/780828/
+
+C:\HEC\HEC-DSSVue>endlocal
+
+E:\php\Apache24\htdocs\wms>c:
+
+C:\>cd C:\HEC\HEC-DSSVue\ 
+
+C:\HEC\HEC-DSSVue>HEC-DSSVue.cmd E:/php/Apache24/htdocs/wms/Public/hecmodel//runtime/780828.py 
+
+C:\HEC\HEC-DSSVue>java\bin\java -ms64M -mx1000M -Dpython.path=jar\sys\jythonLib.jar\lib;jar\sys\jythonUtils.jar -Dpython.home="C:\WINDOWS\TEMP" -DPLUGINS=Plugins -Djava.library.path=lib -Dproperties.path=config\properties -Djava.security.policy=config\java.policy -Dsun.java2d.noddraw -Dsun.java2d.d3d=false -Dlogfile.directory="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\logs" -DLOGFILE="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\logs\HEC-DSSVue.log" -DCACHE_DIR="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\pythonCache" -Dscripts.directory="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\scripts" -DCWMS_HOME="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue" -Dv2  -cp Plugins\ChartPlugin.jar;Plugins\DssutlImportExport.jar;Plugins\ExcelDssVuePlugin.jar;Plugins\NCDC.jar;Plugins\RiverGages.jar;Plugins\TimeSeriesWiz.jar;Plugins\USGS.jar;Plugins\WaterML.jar;Plugins\ChartPlugin.jar;jar\help\dssvueHelp.jar;jar\hec.jar;jar\gridUtil.jar;jar\hecdata.jar;jar\rma.jar;jar\images.jar;jar\heclib.jar;jar\sys\jdom.jar;jar\sys\jh.jar;jar\sys\jfreechart.jar;jar\sys\jcommon.jar;jar\sys\jai_core.jar;jar\sys\jai_imageio.jar;jar\sys\jai_codec.jar;jar\sys\jxl.jar;jar\sys\jythonUtils.jar;jar\sys\jythonlib.jar;jar\sys\jython.jar;jar\sys\codebase.jar; hec.dssgui.HecDssVue E:/php/Apache24/htdocs/wms/Public/hecmodel//runtime/780828.py 
+Version stamp is 2.0.0.17G date 2010.02.09.04.41 
+::::::::
+::
+:: Initializing Jython interpreter environment.
+:: Application home variable = CWMS_HOME
+:: CWMS_HOME = C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue
+:: Jython script path = jar\sys\jythonLib.jar\lib;jar\sys\jythonUtils.jar
+::
+::::::::
+Debug off; no logging properties file: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue/config/properties/logger.properties
+    -----DSS---ZOPEN:  Existing File Opened,  File: E:/php/Apache24/htdocs/wms/Public/hecmodel/780828/1978.dss
+                       Unit:   71;  DSS Versions - Software: 6-QF, File: 6-ND
+ -----DSS--- ZREAD Unit   71; Vers.    3:  /XIXI/ANXI/FLOW/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    2:  /XIXI/HONGLAI/FLOW/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    2:  /XIXI/SHILONG/FLOW/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    4:  /XIXI/SHUIKU/FLOW/01AUG1978/1HOUR/780828/
+
+C:\HEC\HEC-DSSVue>endlocal
+
+E:\php\Apache24\htdocs\wms>c:
+
+C:\>cd C:\HEC\HEC-DSSVue\ 
+
+C:\HEC\HEC-DSSVue>HEC-DSSVue.cmd E:/php/Apache24/htdocs/wms/Public/hecmodel//runtime/780828.py 
+
+C:\HEC\HEC-DSSVue>java\bin\java -ms64M -mx1000M -Dpython.path=jar\sys\jythonLib.jar\lib;jar\sys\jythonUtils.jar -Dpython.home="C:\WINDOWS\TEMP" -DPLUGINS=Plugins -Djava.library.path=lib -Dproperties.path=config\properties -Djava.security.policy=config\java.policy -Dsun.java2d.noddraw -Dsun.java2d.d3d=false -Dlogfile.directory="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\logs" -DLOGFILE="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\logs\HEC-DSSVue.log" -DCACHE_DIR="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\pythonCache" -Dscripts.directory="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\scripts" -DCWMS_HOME="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue" -Dv2  -cp Plugins\ChartPlugin.jar;Plugins\DssutlImportExport.jar;Plugins\ExcelDssVuePlugin.jar;Plugins\NCDC.jar;Plugins\RiverGages.jar;Plugins\TimeSeriesWiz.jar;Plugins\USGS.jar;Plugins\WaterML.jar;Plugins\ChartPlugin.jar;jar\help\dssvueHelp.jar;jar\hec.jar;jar\gridUtil.jar;jar\hecdata.jar;jar\rma.jar;jar\images.jar;jar\heclib.jar;jar\sys\jdom.jar;jar\sys\jh.jar;jar\sys\jfreechart.jar;jar\sys\jcommon.jar;jar\sys\jai_core.jar;jar\sys\jai_imageio.jar;jar\sys\jai_codec.jar;jar\sys\jxl.jar;jar\sys\jythonUtils.jar;jar\sys\jythonlib.jar;jar\sys\jython.jar;jar\sys\codebase.jar; hec.dssgui.HecDssVue E:/php/Apache24/htdocs/wms/Public/hecmodel//runtime/780828.py 
+Version stamp is 2.0.0.17G date 2010.02.09.04.41 
+::::::::
+::
+:: Initializing Jython interpreter environment.
+:: Application home variable = CWMS_HOME
+:: CWMS_HOME = C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue
+:: Jython script path = jar\sys\jythonLib.jar\lib;jar\sys\jythonUtils.jar
+::
+::::::::
+Debug off; no logging properties file: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue/config/properties/logger.properties
+    -----DSS---ZOPEN:  Existing File Opened,  File: E:/php/Apache24/htdocs/wms/Public/hecmodel/780828/output.dss
+                       Unit:   71;  DSS Versions - Software: 6-QF, File: 6-UB
+ -----DSS--- ZREAD Unit   71; Vers.    2:  //AX/FLOW/01AUG1978/1HOUR/RUN:RUN 1/
+ -----DSS--- ZREAD Unit   71; Vers.    2:  //HL/FLOW/01AUG1978/1HOUR/RUN:RUN 1/
+ -----DSS--- ZREAD Unit   71; Vers.    2:  //SL/FLOW/01AUG1978/1HOUR/RUN:RUN 1/
+ -----DSS--- ZREAD Unit   71; Vers.    2:  //RESERVOIR-1/FLOW/01AUG1978/1HOUR/RUN:RUN 1/
+
+C:\HEC\HEC-DSSVue>endlocal
+
+E:\php\Apache24\htdocs\wms>c:
+
+C:\>cd C:\HEC\HEC-DSSVue\ 
+
+C:\HEC\HEC-DSSVue>HEC-DSSVue.cmd E:/php/Apache24/htdocs/wms/Public/hecmodel//runtime/780828.py 
+
+C:\HEC\HEC-DSSVue>java\bin\java -ms64M -mx1000M -Dpython.path=jar\sys\jythonLib.jar\lib;jar\sys\jythonUtils.jar -Dpython.home="C:\WINDOWS\TEMP" -DPLUGINS=Plugins -Djava.library.path=lib -Dproperties.path=config\properties -Djava.security.policy=config\java.policy -Dsun.java2d.noddraw -Dsun.java2d.d3d=false -Dlogfile.directory="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\logs" -DLOGFILE="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\logs\HEC-DSSVue.log" -DCACHE_DIR="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\pythonCache" -Dscripts.directory="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\scripts" -DCWMS_HOME="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue" -Dv2  -cp Plugins\ChartPlugin.jar;Plugins\DssutlImportExport.jar;Plugins\ExcelDssVuePlugin.jar;Plugins\NCDC.jar;Plugins\RiverGages.jar;Plugins\TimeSeriesWiz.jar;Plugins\USGS.jar;Plugins\WaterML.jar;Plugins\ChartPlugin.jar;jar\help\dssvueHelp.jar;jar\hec.jar;jar\gridUtil.jar;jar\hecdata.jar;jar\rma.jar;jar\images.jar;jar\heclib.jar;jar\sys\jdom.jar;jar\sys\jh.jar;jar\sys\jfreechart.jar;jar\sys\jcommon.jar;jar\sys\jai_core.jar;jar\sys\jai_imageio.jar;jar\sys\jai_codec.jar;jar\sys\jxl.jar;jar\sys\jythonUtils.jar;jar\sys\jythonlib.jar;jar\sys\jython.jar;jar\sys\codebase.jar; hec.dssgui.HecDssVue E:/php/Apache24/htdocs/wms/Public/hecmodel//runtime/780828.py 
+Version stamp is 2.0.0.17G date 2010.02.09.04.41 
+::::::::
+::
+:: Initializing Jython interpreter environment.
+:: Application home variable = CWMS_HOME
+:: CWMS_HOME = C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue
+:: Jython script path = jar\sys\jythonLib.jar\lib;jar\sys\jythonUtils.jar
+::
+::::::::
+Debug off; no logging properties file: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue/config/properties/logger.properties
+    -----DSS---ZOPEN:  Existing File Opened,  File: E:/php/Apache24/htdocs/wms/Public/hecmodel/780828/1978.dss
+                       Unit:   71;  DSS Versions - Software: 6-QF, File: 6-ND
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/DAZHONG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/DONGGUAN/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/HONGLAI/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/HUANGYANG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/HUYANG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/JINXI/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/LUOZHONG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/PENGHU/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/SHANMEI/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/SHANTOU/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/SHILONG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/WEICUO/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/XITOUPU/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /DX/YONGCHUN/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/ANXI/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/CHANGHONG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/GANDE/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/GUANQIAO/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/HUTOU/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/KENGZIKOU/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/LINGJIAO/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/LUOZAI/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/NANAN/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/PENGLAI/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/SHANGQING/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/TAOZHOU/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/XIANRONG/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/XIPING/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/XITA/PRECIP-INC/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    1:  /XIXI/YINGDOU/PRECIP-INC/01AUG1978/1HOUR/780828/
+
+C:\HEC\HEC-DSSVue>endlocal
+
+E:\php\Apache24\htdocs\wms>c:
+
+C:\>cd C:\HEC\HEC-DSSVue\ 
+
+C:\HEC\HEC-DSSVue>HEC-DSSVue.cmd E:/php/Apache24/htdocs/wms/Public/hecmodel//runtime/780828.py 
+
+C:\HEC\HEC-DSSVue>java\bin\java -ms64M -mx1000M -Dpython.path=jar\sys\jythonLib.jar\lib;jar\sys\jythonUtils.jar -Dpython.home="C:\WINDOWS\TEMP" -DPLUGINS=Plugins -Djava.library.path=lib -Dproperties.path=config\properties -Djava.security.policy=config\java.policy -Dsun.java2d.noddraw -Dsun.java2d.d3d=false -Dlogfile.directory="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\logs" -DLOGFILE="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\logs\HEC-DSSVue.log" -DCACHE_DIR="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\pythonCache" -Dscripts.directory="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\scripts" -DCWMS_HOME="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue" -Dv2  -cp Plugins\ChartPlugin.jar;Plugins\DssutlImportExport.jar;Plugins\ExcelDssVuePlugin.jar;Plugins\NCDC.jar;Plugins\RiverGages.jar;Plugins\TimeSeriesWiz.jar;Plugins\USGS.jar;Plugins\WaterML.jar;Plugins\ChartPlugin.jar;jar\help\dssvueHelp.jar;jar\hec.jar;jar\gridUtil.jar;jar\hecdata.jar;jar\rma.jar;jar\images.jar;jar\heclib.jar;jar\sys\jdom.jar;jar\sys\jh.jar;jar\sys\jfreechart.jar;jar\sys\jcommon.jar;jar\sys\jai_core.jar;jar\sys\jai_imageio.jar;jar\sys\jai_codec.jar;jar\sys\jxl.jar;jar\sys\jythonUtils.jar;jar\sys\jythonlib.jar;jar\sys\jython.jar;jar\sys\codebase.jar; hec.dssgui.HecDssVue E:/php/Apache24/htdocs/wms/Public/hecmodel//runtime/780828.py 
+Version stamp is 2.0.0.17G date 2010.02.09.04.41 
+::::::::
+::
+:: Initializing Jython interpreter environment.
+:: Application home variable = CWMS_HOME
+:: CWMS_HOME = C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue
+:: Jython script path = jar\sys\jythonLib.jar\lib;jar\sys\jythonUtils.jar
+::
+::::::::
+Debug off; no logging properties file: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue/config/properties/logger.properties
+    -----DSS---ZOPEN:  Existing File Opened,  File: E:/php/Apache24/htdocs/wms/Public/hecmodel/780828/1978.dss
+                       Unit:   71;  DSS Versions - Software: 6-QF, File: 6-ND
+ -----DSS--- ZREAD Unit   71; Vers.    3:  /XIXI/ANXI/FLOW/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    2:  /XIXI/HONGLAI/FLOW/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    2:  /XIXI/SHILONG/FLOW/01AUG1978/1HOUR/780828/
+ -----DSS--- ZREAD Unit   71; Vers.    4:  /XIXI/SHUIKU/FLOW/01AUG1978/1HOUR/780828/
+
+C:\HEC\HEC-DSSVue>endlocal
+
+E:\php\Apache24\htdocs\wms>c:
+
+C:\>cd C:\HEC\HEC-DSSVue\ 
+
+C:\HEC\HEC-DSSVue>HEC-DSSVue.cmd E:/php/Apache24/htdocs/wms/Public/hecmodel//runtime/780828.py 
+
+C:\HEC\HEC-DSSVue>java\bin\java -ms64M -mx1000M -Dpython.path=jar\sys\jythonLib.jar\lib;jar\sys\jythonUtils.jar -Dpython.home="C:\WINDOWS\TEMP" -DPLUGINS=Plugins -Djava.library.path=lib -Dproperties.path=config\properties -Djava.security.policy=config\java.policy -Dsun.java2d.noddraw -Dsun.java2d.d3d=false -Dlogfile.directory="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\logs" -DLOGFILE="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\logs\HEC-DSSVue.log" -DCACHE_DIR="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\pythonCache" -Dscripts.directory="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue\scripts" -DCWMS_HOME="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue" -Dv2  -cp Plugins\ChartPlugin.jar;Plugins\DssutlImportExport.jar;Plugins\ExcelDssVuePlugin.jar;Plugins\NCDC.jar;Plugins\RiverGages.jar;Plugins\TimeSeriesWiz.jar;Plugins\USGS.jar;Plugins\WaterML.jar;Plugins\ChartPlugin.jar;jar\help\dssvueHelp.jar;jar\hec.jar;jar\gridUtil.jar;jar\hecdata.jar;jar\rma.jar;jar\images.jar;jar\heclib.jar;jar\sys\jdom.jar;jar\sys\jh.jar;jar\sys\jfreechart.jar;jar\sys\jcommon.jar;jar\sys\jai_core.jar;jar\sys\jai_imageio.jar;jar\sys\jai_codec.jar;jar\sys\jxl.jar;jar\sys\jythonUtils.jar;jar\sys\jythonlib.jar;jar\sys\jython.jar;jar\sys\codebase.jar; hec.dssgui.HecDssVue E:/php/Apache24/htdocs/wms/Public/hecmodel//runtime/780828.py 
+Version stamp is 2.0.0.17G date 2010.02.09.04.41 
+::::::::
+::
+:: Initializing Jython interpreter environment.
+:: Application home variable = CWMS_HOME
+:: CWMS_HOME = C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue
+:: Jython script path = jar\sys\jythonLib.jar\lib;jar\sys\jythonUtils.jar
+::
+::::::::
+Debug off; no logging properties file: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\HEC\HEC-DSSVue/config/properties/logger.properties
+    -----DSS---ZOPEN:  Existing File Opened,  File: E:/php/Apache24/htdocs/wms/Public/hecmodel/780828/output.dss
+                       Unit:   71;  DSS Versions - Software: 6-QF, File: 6-UB
+ -----DSS--- ZREAD Unit   71; Vers.    2:  //AX/FLOW/01AUG1978/1HOUR/RUN:RUN 1/
+ -----DSS--- ZREAD Unit   71; Vers.    2:  //HL/FLOW/01AUG1978/1HOUR/RUN:RUN 1/
+ -----DSS--- ZREAD Unit   71; Vers.    2:  //SL/FLOW/01AUG1978/1HOUR/RUN:RUN 1/
+ -----DSS--- ZREAD Unit   71; Vers.    2:  //RESERVOIR-1/FLOW/01AUG1978/1HOUR/RUN:RUN 1/
+
+C:\HEC\HEC-DSSVue>endlocal

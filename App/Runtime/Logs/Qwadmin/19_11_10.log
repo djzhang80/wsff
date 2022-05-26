@@ -1,0 +1,26 @@
+[ 2019-11-10T21:53:16+08:00 ] ::1 /wms/index.php/Qwadmin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 133 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014831s ]
+

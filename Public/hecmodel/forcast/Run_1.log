@@ -1,0 +1,156 @@
+NOTE 10184:  Began computing simulation run "Run 1" at time 28¾ÅÔÂ2020, 15:19:15.
+WARNING 41596:  Cannot compute observed pool elevation at reservoir "Reservoir-1" because reservoir does not compute elevation.
+WARNING 20183:  No search distance for inverse distance precipitation; using default distance 1,000 (KM).
+NOTE 20364:  Found no parameter problems in meteorologic model "Met 1".
+NOTE 40049:  Found no parameter problems in basin model "NewProj".
+NOTE 41743:  Initial abstraction ratio for subbasin "R90W90" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R90W90"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R60W60" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R60W60"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R50W50" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R50W50"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R70W70" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R70W70"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R180W180" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R180W180"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R110W110" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R110W110"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R200W200" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R200W200"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R190W190" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R190W190"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R20W20" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R20W20"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R10W10" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R10W10"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R30W30" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R30W30"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R170W170" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R170W170"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R330W330" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R330W330"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R300W300" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R300W300"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R340W340" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R340W340"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R400W400" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R400W400"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R220W220" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R220W220"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R310W310" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R310W310"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R290W290" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R290W290"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R320W320" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R320W320"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R430W430" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R430W430"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R440W440" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R440W440"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R360W360" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R360W360"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R420W420" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R420W420"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R520W520" is 0.11.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R520W520"; reduce simulation time interval.
+WARNING 41743:  Initial abstraction ratio for subbasin "R460W460" is 0.4.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R460W460"; reduce simulation time interval.
+WARNING 41743:  Initial abstraction ratio for subbasin "R410W410" is 0.4.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R410W410"; reduce simulation time interval.
+WARNING 41743:  Initial abstraction ratio for subbasin "R450W450" is 0.4.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R450W450"; reduce simulation time interval.
+WARNING 41743:  Initial abstraction ratio for subbasin "R470W470" is 0.4.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R470W470"; reduce simulation time interval.
+WARNING 41743:  Initial abstraction ratio for subbasin "R510W510" is 0.4.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R510W510"; reduce simulation time interval.
+WARNING 41743:  Initial abstraction ratio for subbasin "R500W500" is 0.4.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R500W500"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R40W40" is 0.1235.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R40W40"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R80W80" is 0.1218.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R80W80"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R100W100" is 0.125.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R100W100"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R120W120" is 0.1218.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R120W120"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R160W160" is 0.1181.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R160W160"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R130W130" is 0.1235.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R130W130"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R150W150" is 0.1277.
+NOTE 41743:  Initial abstraction ratio for subbasin "R140W140" is 0.1218.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R140W140"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R230W230" is 0.1181.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R230W230"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R210W210" is 0.13.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R210W210"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R240W240" is 0.125.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R240W240"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R270W270" is 0.24.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R270W270"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R250W250" is 0.24.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R250W250"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R280W280" is 0.24.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R280W280"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R370W370" is 0.24.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R370W370"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R350W350" is 0.24.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R350W350"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R260W260" is 0.24.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R260W260"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R530W530" is 0.24.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R530W530"; reduce simulation time interval.
+NOTE 41743:  Initial abstraction ratio for subbasin "R380W380" is 0.24.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R380W380"; reduce simulation time interval.
+WARNING 41743:  Initial abstraction ratio for subbasin "R390W390" is 0.4.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R390W390"; reduce simulation time interval.
+WARNING 41743:  Initial abstraction ratio for subbasin "R490W490" is 0.4.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R490W490"; reduce simulation time interval.
+WARNING 41743:  Initial abstraction ratio for subbasin "R480W480" is 0.4.
+WARNING 41784:  Simulation time interval is greater than 0.29 * lag for subbasin "R480W480"; reduce simulation time interval.
+WARNING 41596:  Cannot compute observed pool elevation at reservoir "Reservoir-1" because reservoir does not compute elevation.
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R110".
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R190".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R190".
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R170".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R170".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R30".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R220".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R340".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R310".
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R320".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R320".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R360".
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R520".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R520".
+NOTE 10616:  Data type "PER-AVER" is usually used for time intervals of 24 hours or longer.  Gage "anxi".
+WARNING 40012:  Could not compute observed flow for element "ax".
+WARNING 40013:  Could not compute residual flow for element "ax".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R410".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R450".
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R500".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R500".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R490".
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R120".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R130".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R210".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R240".
+NOTE 10616:  Data type "PER-AVER" is usually used for time intervals of 24 hours or longer.  Gage "shuiku".
+WARNING 40012:  Could not compute observed flow for element "Reservoir-1".
+WARNING 40013:  Could not compute residual flow for element "Reservoir-1".
+WARNING 41596:  Cannot compute observed pool elevation at reservoir "Reservoir-1" because reservoir does not compute elevation.
+WARNING 41596:  Cannot compute observed pool elevation at reservoir "Reservoir-1" because reservoir does not compute elevation.
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R280".
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R350".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R380".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R530".
+NOTE 10616:  Data type "PER-AVER" is usually used for time intervals of 24 hours or longer.  Gage "honglai".
+WARNING 40012:  Could not compute observed flow for element "hl".
+WARNING 40013:  Could not compute residual flow for element "hl".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R390".
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R480".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R480".
+NOTE 10616:  Data type "PER-AVER" is usually used for time intervals of 24 hours or longer.  Gage "shilong".
+WARNING 40012:  Could not compute observed flow for element "sl".
+WARNING 40013:  Could not compute residual flow for element "sl".
+NOTE 10185:  Finished computing simulation run "Run 1" at time 28¾ÅÔÂ2020, 15:19:16.

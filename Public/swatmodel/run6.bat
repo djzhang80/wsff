@@ -1,0 +1,1 @@
+echo abc >>E:\php\swatmodel\zdj.txt

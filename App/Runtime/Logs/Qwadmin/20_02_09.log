@@ -1,0 +1,485 @@
+[ 2020-02-09T00:00:25+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001538s ]
+
+[ 2020-02-09T00:00:35+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+
+[ 2020-02-09T00:01:05+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2020-02-09T00:01:15+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+
+[ 2020-02-09T00:01:45+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001852s ]
+
+[ 2020-02-09T00:01:55+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+
+[ 2020-02-09T00:02:25+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2020-02-09T00:02:35+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+
+[ 2020-02-09T00:03:04+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002598s ]
+
+[ 2020-02-09T00:03:14+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+
+[ 2020-02-09T00:03:44+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002754s ]
+
+[ 2020-02-09T00:03:53+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+
+[ 2020-02-09T00:04:22+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002445s ]
+
+[ 2020-02-09T00:04:32+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+
+[ 2020-02-09T00:05:02+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2020-02-09T00:05:11+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+
+[ 2020-02-09T00:05:41+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003063s ]
+
+[ 2020-02-09T00:05:51+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+
+[ 2020-02-09T00:06:20+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002178s ]
+
+[ 2020-02-09T00:06:29+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+
+[ 2020-02-09T00:06:59+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2020-02-09T00:07:08+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+
+[ 2020-02-09T00:07:38+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001968s ]
+
+[ 2020-02-09T00:07:47+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+
+[ 2020-02-09T00:08:17+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2020-02-09T00:08:26+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+
+[ 2020-02-09T00:08:57+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2020-02-09T00:09:06+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+
+[ 2020-02-09T00:09:36+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002546s ]
+
+[ 2020-02-09T00:09:46+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+
+[ 2020-02-09T00:10:16+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001720s ]
+
+[ 2020-02-09T00:10:25+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeinputs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+
+[ 2020-02-09T17:18:25+08:00 ] ::1 /wms/index.php/Qwadmin/HMS2/realtimeeditmodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 837 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 852 行.
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\ThinkPHP\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\HMS2Controller.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.447236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.447402s ]
+

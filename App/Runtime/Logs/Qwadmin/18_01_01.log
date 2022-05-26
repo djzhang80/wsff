@@ -1,0 +1,618 @@
+[ 2018-01-01T00:09:35+08:00 ] ::1 /wms/index.php/Qwadmin/Watershed/tree.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Watershed/tree' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2018-01-01T00:09:38+08:00 ] ::1 /wms/index.php/Qwadmin/Watershed/readconfig3.html?root=r88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Watershed/readconfig3' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0019s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qw_serialize` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `qw_serialize` WHERE ( iname='link' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+
+[ 2018-01-01T00:10:08+08:00 ] ::1 /wms/index.php/Qwadmin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0005s ]
+SQL: select guage_id,guage_name from qw_guage where guage_type=0 [ RunTime:0.0007s ]
+SQL: select guage_id,guage_name from qw_guage where guage_type=1 [ RunTime:0.0004s ]
+SQL: select guage_id,guage_name from qw_guage where guage_type=2 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_meteorology_scen` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `qw_temp_scen` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `qw_scenario` [ RunTime:0.0022s ]
+SQL: SELECT `scen_id`,`scen_name` FROM `qw_scenario` WHERE ( scen_type=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `scen_id`,`scen_name` FROM `qw_meteorology_scen`  [ RunTime:0.0002s ]
+SQL: SELECT `scen_id`,`scen_name` FROM `qw_temp_scen`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2018-01-01T00:10:12+08:00 ] ::1 /wms/qwadmin/index/getdatas?pvar=1&guage=1&scens=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/getdatas' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0021s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0005s ]
+
+[ 2018-01-01T00:10:19+08:00 ] ::1 /wms/index.php/Qwadmin/Pointsource/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Pointsource/index' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2018-01-01T00:10:24+08:00 ] ::1 /wms/index.php/Qwadmin/Scen/ldata.html?_search=false&nd=1514736623013&rows=10&page=1&sidx=&sord=asc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Scen/ldata' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qw_meteorology_scen` [ RunTime:0.0021s ]
+SQL: SELECT scen_id id,`scen_name`,`scen_type`,`scen_method`,`scen_value`,`scen_file`,`scen_desc`,`scen_createdate`,`scen_modifieddate`,`scen_id_fk`,`scen_target` FROM `qw_meteorology_scen` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_meteorology_scen` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-01T00:10:43+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/index' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0019s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_auth_rule` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_auth_rule` ORDER BY o asc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: page E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\eb4ac1ef728a7e35df7d77a31dc742f3.php 第 473 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2018-01-01T00:10:50+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/edit/id/67.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/index' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0022s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_auth_rule` WHERE ( id='67' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_auth_rule` ORDER BY o ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2018-01-01T00:10:58+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/update' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0021s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0006s ]
+SQL: UPDATE `qw_auth_rule` SET `pid`='1',`title`='流域汇流图1',`name`='Watershed/index',`icon`='',`islink`='0',`status`='1',`o`='3',`tips`='' WHERE ( id='67' ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0022s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Common\function.php 第 12 行.
+SQL: SELECT `user` FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qw_log` (`name`,`t`,`ip`,`log`) VALUES ('admin','1514736658','::1','编辑菜单，ID：67') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2018-01-01T00:11:02+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/edit/id/67.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/index' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_auth_rule` WHERE ( id='67' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_auth_rule` ORDER BY o ASC  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2018-01-01T00:11:08+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/index' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_auth_rule` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_auth_rule` ORDER BY o asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: page E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\eb4ac1ef728a7e35df7d77a31dc742f3.php 第 473 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2018-01-01T00:11:13+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/edit/id/75.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/index' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0022s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_auth_rule` WHERE ( id='75' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_auth_rule` ORDER BY o ASC  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2018-01-01T00:11:19+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/update' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0007s ]
+SQL: UPDATE `qw_auth_rule` SET `pid`='1',`title`='流域汇流图',`name`='Watershed/tree',`icon`='',`islink`='1',`status`='1',`o`='3',`tips`='' WHERE ( id='75' ) [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0028s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Common\function.php 第 12 行.
+SQL: SELECT `user` FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `qw_log` (`name`,`t`,`ip`,`log`) VALUES ('admin','1514736679','::1','编辑菜单，ID：75') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2018-01-01T00:11:22+08:00 ] ::1 /wms/index.php/Qwadmin/Menu/edit/id/75.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Menu/index' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_auth_rule` WHERE ( id='75' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_auth_rule` ORDER BY o ASC  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Runtime\Cache\Qwadmin\27179f5a434cb57756557dad9ab4b9e4.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2018-01-01T00:11:30+08:00 ] ::1 /wms/index.php/Qwadmin/Watershed/tree.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Watershed/tree' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2018-01-01T00:11:34+08:00 ] ::1 /wms/index.php/Qwadmin/Watershed/readconfig3.html?root=r88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Watershed/readconfig3' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_serialize` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qw_serialize` WHERE ( iname='link' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+NOTIC: [8] Undefined index: children E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\WatershedController.class.php 第 117 行.
+
+[ 2018-01-01T00:11:48+08:00 ] ::1 /wms/index.php/Qwadmin/Pointsource/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Pointsource/index' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0021s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2018-01-01T00:11:51+08:00 ] ::1 /wms/index.php/Qwadmin/Scen/ldata.html?_search=false&nd=1514736710550&rows=10&page=1&sidx=&sord=asc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Scen/ldata' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\php\Apache24\htdocs\wms\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0019s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_meteorology_scen` [ RunTime:0.0021s ]
+SQL: SELECT scen_id id,`scen_name`,`scen_type`,`scen_method`,`scen_value`,`scen_file`,`scen_desc`,`scen_createdate`,`scen_modifieddate`,`scen_id_fk`,`scen_target` FROM `qw_meteorology_scen` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_meteorology_scen` LIMIT 1   [ RunTime:0.0002s ]
+

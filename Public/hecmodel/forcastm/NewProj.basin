@@ -1,0 +1,2190 @@
+Basin: NewProj
+     Description: Basin model created with HEC-GeoHMS v1.1 Beta
+     Last Modified Date: 27 February 2018
+     Last Modified Time: 08:19:01
+     Version: 4.0
+     Filepath Separator: \
+     Unit System: Metric
+     Grid Cell File: E:\jinjiangHEC\HEC-HMS\720604\720604_06\NewProj.mod
+     Missing Flow To Zero: No
+     Enable Flow Ratio: No
+     Compute Local Flow At Junctions: No
+
+     Enable Sediment Routing: No
+
+     Enable Quality Routing: No
+End:
+
+Junction: sl
+     Canvas X: 649113.988
+     Canvas Y: 2764689.943
+     Label X: 16.0
+     Label Y: 0.0
+     Observed Hydrograph Gage: shilong
+End:
+
+Subbasin: R90W90
+     Canvas X: 575940.334
+     Canvas Y: 2807412.076
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 125.145630
+     Downstream: JR70
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.51506
+     Curve Number: 73
+     Initial Abstraction: 10.3339726
+
+     Transform: SCS
+     Lag: 116.28
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 4.9728
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R60W60
+     Canvas X: 579840.529
+     Canvas Y: 2818017.606
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 116.171322
+     Downstream: JR70
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.62254
+     Curve Number: 74
+     Initial Abstraction: 9.8168
+
+     Transform: SCS
+     Lag: 104.82
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 4.6162
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR70
+     Canvas X: 582525.663
+     Canvas Y: 2812092.31
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R70
+End:
+
+Reach: R70
+     Canvas X: 590056.039
+     Canvas Y: 2810112.211
+     From Canvas X: 582525.663
+     From Canvas Y: 2812092.31
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR110
+
+     Route: Muskingum
+     Muskingum K: 1.02
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R50W50
+     Canvas X: 592531.163
+     Canvas Y: 2817507.58
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 97.779817
+     Downstream: JR110
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.60061
+     Curve Number: 75
+     Initial Abstraction: 9.3133
+
+     Transform: SCS
+     Lag: 112.08
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 3.8855
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R70W70
+     Canvas X: 586215.848
+     Canvas Y: 2812527.332
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 71.605398
+     Downstream: JR110
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.16931
+     Curve Number: 72
+     Initial Abstraction: 10.866
+
+     Transform: SCS
+     Lag: 102.3
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 2.8453
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR110
+     Canvas X: 590056.039
+     Canvas Y: 2810112.211
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R110
+End:
+
+Reach: R110
+     Canvas X: 593416.207
+     Canvas Y: 2802461.829
+     From Canvas X: 590056.039
+     From Canvas Y: 2810112.211
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR190
+
+     Route: Muskingum
+     Muskingum K: 0.86
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R180W180
+     Canvas X: 586230.848
+     Canvas Y: 2798231.618
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 128.660244
+     Downstream: JR190
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.16592
+     Curve Number: 76
+     Initial Abstraction: 8.8232
+
+     Transform: SCS
+     Lag: 104.4
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 5.1126
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R110W110
+     Canvas X: 590866.08
+     Canvas Y: 2806452.028
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 33.027527
+     Downstream: JR190
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.92645
+     Curve Number: 66
+     Initial Abstraction: 14.393
+
+     Transform: SCS
+     Lag: 80.52
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 1.3124
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR190
+     Canvas X: 593416.207
+     Canvas Y: 2802461.829
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R190
+End:
+
+Reach: R190
+     Canvas X: 595066.29
+     Canvas Y: 2802341.823
+     From Canvas X: 593416.207
+     From Canvas Y: 2802461.829
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR170
+
+     Route: Muskingum
+     Muskingum K: 0.17
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R200W200
+     Canvas X: 595141.293
+     Canvas Y: 2796446.529
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 52.095019
+     Downstream: JR170
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0477937
+     Curve Number: 77
+     Initial Abstraction: 8.3457
+
+     Transform: SCS
+     Lag: 70.86
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 2.0701
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R190W190
+     Canvas X: 593686.221
+     Canvas Y: 2801981.805
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 3.543104
+     Downstream: JR170
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 2.1009
+     Curve Number: 80
+     Initial Abstraction: 6.985
+
+     Transform: SCS
+     Lag: 21.6
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.14081
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR170
+     Canvas X: 595066.29
+     Canvas Y: 2802341.823
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R170
+End:
+
+Reach: R170
+     Canvas X: 598426.457
+     Canvas Y: 2801891.801
+     From Canvas X: 595066.29
+     From Canvas Y: 2802341.823
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR220
+
+     Route: Muskingum
+     Muskingum K: 0.49
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R20W20
+     Canvas X: 607381.905
+     Canvas Y: 2821212.765
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 85.005996
+     Downstream: JR30
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.49179
+     Curve Number: 73
+     Initial Abstraction: 10.3339726
+
+     Transform: SCS
+     Lag: 92.7
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 3.3779
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R10W10
+     Canvas X: 600691.57
+     Canvas Y: 2823192.864
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 76.373566
+     Downstream: JR30
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 1.3762
+     Curve Number: 75
+     Initial Abstraction: 9.3133
+
+     Transform: SCS
+     Lag: 111.06
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 3.0348
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR30
+     Canvas X: 602596.666
+     Canvas Y: 2816562.533
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R30
+End:
+
+Reach: R30
+     Canvas X: 598426.457
+     Canvas Y: 2801891.801
+     From Canvas X: 602596.666
+     From Canvas Y: 2816562.533
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR220
+
+     Route: Muskingum
+     Muskingum K: 2.03
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R30W30
+     Canvas X: 602176.645
+     Canvas Y: 2809467.179
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 129.533070
+     Downstream: JR220
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 1.8422
+     Curve Number: 72
+     Initial Abstraction: 10.866
+
+     Transform: SCS
+     Lag: 128.16
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 5.1473
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R170W170
+     Canvas X: 594931.283
+     Canvas Y: 2807037.058
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 46.197616
+     Downstream: JR220
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.63245
+     Curve Number: 71
+     Initial Abstraction: 11.412
+
+     Transform: SCS
+     Lag: 92.46
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 1.8357
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR220
+     Canvas X: 598426.457
+     Canvas Y: 2801891.801
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R220
+End:
+
+Reach: R220
+     Canvas X: 611957.133
+     Canvas Y: 2785420.978
+     From Canvas X: 598426.457
+     From Canvas Y: 2801891.801
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR320
+
+     Route: Muskingum
+     Muskingum K: 2.75
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R330W330
+     Canvas X: 583695.722
+     Canvas Y: 2782450.83
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 102.338196
+     Downstream: JR340
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.34010
+     Curve Number: 75
+     Initial Abstraction: 9.3133
+
+     Transform: SCS
+     Lag: 103.02
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 4.0666
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R300W300
+     Canvas X: 587580.916
+     Canvas Y: 2789126.163
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 62.475691
+     Downstream: JR340
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 2.7415
+     Curve Number: 76
+     Initial Abstraction: 8.8232
+
+     Transform: SCS
+     Lag: 89.58
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 2.4826
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR340
+     Canvas X: 589996.036
+     Canvas Y: 2784040.909
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R340
+End:
+
+Reach: R340
+     Canvas X: 597616.417
+     Canvas Y: 2778550.635
+     From Canvas X: 589996.036
+     From Canvas Y: 2784040.909
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR310
+
+     Route: Muskingum
+     Muskingum K: 1.34
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R340W340
+     Canvas X: 594496.261
+     Canvas Y: 2785810.998
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 92.540271
+     Downstream: JR310
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.37686
+     Curve Number: 78
+     Initial Abstraction: 7.8805
+
+     Transform: SCS
+     Lag: 98.22
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 3.6773
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R400W400
+     Canvas X: 591646.119
+     Canvas Y: 2777080.562
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 62.879729
+     Downstream: JR310
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.13261
+     Curve Number: 73
+     Initial Abstraction: 10.3339726
+
+     Transform: SCS
+     Lag: 95.1
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 2.4987
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR310
+     Canvas X: 597616.417
+     Canvas Y: 2778550.635
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R310
+End:
+
+Reach: R310
+     Canvas X: 611957.133
+     Canvas Y: 2785420.978
+     From Canvas X: 597616.417
+     From Canvas Y: 2778550.635
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR320
+
+     Route: Muskingum
+     Muskingum K: 2.2
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R220W220
+     Canvas X: 604126.742
+     Canvas Y: 2796311.522
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 230.169644
+     Downstream: JR320
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 1.4309
+     Curve Number: 76
+     Initial Abstraction: 8.8232
+
+     Transform: SCS
+     Lag: 164.1
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 9.1461
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R310W310
+     Canvas X: 603151.693
+     Canvas Y: 2780455.73
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 108.217469
+     Downstream: JR320
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.53111
+     Curve Number: 77
+     Initial Abstraction: 8.3457
+
+     Transform: SCS
+     Lag: 152.4
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 4.3002
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR320
+     Canvas X: 611957.133
+     Canvas Y: 2785420.978
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R320
+End:
+
+Reach: R320
+     Canvas X: 612647.167
+     Canvas Y: 2783110.863
+     From Canvas X: 611957.133
+     From Canvas Y: 2785420.978
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR360
+
+     Route: Muskingum
+     Muskingum K: 0.24
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R290W290
+     Canvas X: 615767.323
+     Canvas Y: 2791421.278
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 111.628483
+     Downstream: JR360
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 2.1371
+     Curve Number: 76
+     Initial Abstraction: 8.8232
+
+     Transform: SCS
+     Lag: 124.5
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 4.4357
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R320W320
+     Canvas X: 611297.1
+     Canvas Y: 2784850.95
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 4.682698
+     Downstream: JR360
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 8.0384
+     Curve Number: 82
+     Initial Abstraction: 6.1332
+
+     Transform: SCS
+     Lag: 37.44
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.18609
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR360
+     Canvas X: 612647.167
+     Canvas Y: 2783110.863
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R360
+End:
+
+Reach: R360
+     Canvas X: 618467.458
+     Canvas Y: 2773360.376
+     From Canvas X: 612647.167
+     From Canvas Y: 2783110.863
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR520
+
+     Route: Muskingum
+     Muskingum K: 1.41
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R430W430
+     Canvas X: 594961.284
+     Canvas Y: 2766370.027
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 281.780334
+     Downstream: JR420
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.61086
+     Curve Number: 75
+     Initial Abstraction: 9.3133
+
+     Transform: SCS
+     Lag: 175.38
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 11.197
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R440W440
+     Canvas X: 607426.907
+     Canvas Y: 2759334.675
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 191.936241
+     Downstream: JR420
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 2.0305
+     Curve Number: 74
+     Initial Abstraction: 9.8168
+
+     Transform: SCS
+     Lag: 155.76
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 7.6269
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR420
+     Canvas X: 609437.007
+     Canvas Y: 2769550.186
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R420
+End:
+
+Reach: R420
+     Canvas X: 618467.458
+     Canvas Y: 2773360.376
+     From Canvas X: 609437.007
+     From Canvas Y: 2769550.186
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR520
+
+     Route: Muskingum
+     Muskingum K: 1.08
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R360W360
+     Canvas X: 613427.206
+     Canvas Y: 2780425.729
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 146.753900
+     Downstream: JR520
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 2.4970
+     Curve Number: 77
+     Initial Abstraction: 8.3457
+
+     Transform: SCS
+     Lag: 149.88
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 5.8315
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R420W420
+     Canvas X: 612482.159
+     Canvas Y: 2771965.306
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 103.394911
+     Downstream: JR520
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 9.9971
+     Curve Number: 75
+     Initial Abstraction: 9.3133
+
+     Transform: SCS
+     Lag: 131.1
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 4.1085
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR520
+     Canvas X: 618467.458
+     Canvas Y: 2773360.376
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R520
+End:
+
+Reach: R520
+     Canvas X: 619427.506
+     Canvas Y: 2772970.356
+     From Canvas X: 618467.458
+     From Canvas Y: 2773360.376
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: ax
+
+     Route: Muskingum
+     Muskingum K: 0.1
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R520W520
+     Canvas X: 618767.473
+     Canvas Y: 2773195.368
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 0.582747
+     Downstream: ax
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 67.847
+     Curve Number: 94
+     Initial Abstraction: 1.7834
+
+     Transform: SCS
+     Lag: 13.68
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.0231766
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: ax
+     Canvas X: 619427.506
+     Canvas Y: 2772970.356
+     Label X: 16.0
+     Label Y: 0.0
+     Observed Hydrograph Gage: anxi
+     Downstream: R410
+End:
+
+Reach: R410
+     Canvas X: 630318.05
+     Canvas Y: 2768920.154
+     From Canvas X: 619427.506
+     From Canvas Y: 2772970.356
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR450
+
+     Route: Muskingum
+     Muskingum K: 4.5
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R460W460
+     Canvas X: 624257.747
+     Canvas Y: 2761404.779
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 170.592150
+     Downstream: JR450
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 3.1123
+     Curve Number: 71
+     Initial Abstraction: 41.499
+
+     Transform: SCS
+     Lag: 149.1
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 9.5581
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R410W410
+     Canvas X: 624062.738
+     Canvas Y: 2775100.463
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 144.425501
+     Downstream: JR450
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 3.6446
+     Curve Number: 71
+     Initial Abstraction: 41.499
+
+     Transform: SCS
+     Lag: 154.5
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 8.0919
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR450
+     Canvas X: 630318.05
+     Canvas Y: 2768920.154
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R450
+End:
+
+Reach: R450
+     Canvas X: 640578.562
+     Canvas Y: 2763879.902
+     From Canvas X: 630318.05
+     From Canvas Y: 2768920.154
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR500
+
+     Route: Muskingum
+     Muskingum K: 3.63
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R450W450
+     Canvas X: 634263.247
+     Canvas Y: 2770195.218
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 71.369709
+     Downstream: JR500
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 4.7174
+     Curve Number: 79
+     Initial Abstraction: 27.008
+
+     Transform: SCS
+     Lag: 127.08
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 3.9987
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R470W470
+     Canvas X: 639363.502
+     Canvas Y: 2770195.218
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 61.478545
+     Downstream: JR500
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 4.2612
+     Curve Number: 80
+     Initial Abstraction: 25.4
+
+     Transform: SCS
+     Lag: 105.06
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 3.4446
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR500
+     Canvas X: 640578.562
+     Canvas Y: 2763879.902
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R500
+End:
+
+Reach: R500
+     Canvas X: 642468.657
+     Canvas Y: 2763369.877
+     From Canvas X: 640578.562
+     From Canvas Y: 2763879.902
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR490
+
+     Route: Muskingum
+     Muskingum K: 0.57
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R510W510
+     Canvas X: 631743.121
+     Canvas Y: 2756304.524
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 150.382473
+     Downstream: JR490
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 1.0863
+     Curve Number: 75
+     Initial Abstraction: 33.867
+
+     Transform: SCS
+     Lag: 170.58
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 8.4257
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R500W500
+     Canvas X: 641538.61
+     Canvas Y: 2765514.984
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 11.222418
+     Downstream: JR490
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 16.344
+     Curve Number: 83
+     Initial Abstraction: 20.810
+
+     Transform: SCS
+     Lag: 78.42
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.62882
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR490
+     Canvas X: 642468.657
+     Canvas Y: 2763369.877
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R490
+End:
+
+Reach: R490
+     Canvas X: 648168.941
+     Canvas Y: 2764329.925
+     From Canvas X: 642468.657
+     From Canvas Y: 2763369.877
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR480
+
+     Route: Muskingum
+     Muskingum K: 1.92
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R40W40
+     Canvas X: 646053.836
+     Canvas Y: 2817327.571
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 130.947203
+     Downstream: JR120
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.45257
+     Curve Number: 61
+     Initial Abstraction: 20.053
+
+     Transform: SCS
+     Lag: 119.88
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 1.3009
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R80W80
+     Canvas X: 637923.43
+     Canvas Y: 2815842.497
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 56.327059
+     Downstream: JR120
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.25905
+     Curve Number: 62
+     Initial Abstraction: 18.968
+
+     Transform: SCS
+     Lag: 99.42
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.55957
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR120
+     Canvas X: 642498.658
+     Canvas Y: 2809932.202
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R120
+End:
+
+Reach: R120
+     Canvas X: 640638.565
+     Canvas Y: 2807562.084
+     From Canvas X: 642498.658
+     From Canvas Y: 2809932.202
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR130
+
+     Route: Muskingum
+     Muskingum K: 0.9
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R100W100
+     Canvas X: 635538.311
+     Canvas Y: 2811567.284
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 58.513009
+     Downstream: JR130
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 1.2326
+     Curve Number: 60
+     Initial Abstraction: 21.167
+
+     Transform: SCS
+     Lag: 101.58
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.58128
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R120W120
+     Canvas X: 643653.716
+     Canvas Y: 2808567.134
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 18.888782
+     Downstream: JR130
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.60816
+     Curve Number: 62
+     Initial Abstraction: 18.968
+
+     Transform: SCS
+     Lag: 52.86
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.18764
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR130
+     Canvas X: 640638.565
+     Canvas Y: 2807562.084
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R130
+End:
+
+Reach: R130
+     Canvas X: 641448.606
+     Canvas Y: 2801321.772
+     From Canvas X: 640638.565
+     From Canvas Y: 2807562.084
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR210
+
+     Route: Muskingum
+     Muskingum K: 3.24
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R160W160
+     Canvas X: 647028.884
+     Canvas Y: 2802311.822
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 84.702968
+     Downstream: JR210
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.85189
+     Curve Number: 64
+     Initial Abstraction: 16.880
+
+     Transform: SCS
+     Lag: 94.02
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.84144
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R130W130
+     Canvas X: 639993.533
+     Canvas Y: 2805251.968
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 50.002308
+     Downstream: JR210
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.18859
+     Curve Number: 61
+     Initial Abstraction: 20.053
+
+     Transform: SCS
+     Lag: 89.46
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.49674
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR210
+     Canvas X: 641448.606
+     Canvas Y: 2801321.772
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R210
+End:
+
+Reach: R210
+     Canvas X: 638808.474
+     Canvas Y: 2798321.622
+     From Canvas X: 641448.606
+     From Canvas Y: 2801321.772
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR240
+
+     Route: Muskingum
+     Muskingum K: 1.47
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R150W150
+     Canvas X: 617987.434
+     Canvas Y: 2806827.047
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 303.836672
+     Downstream: JR230
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 1.3578
+     Curve Number: 58
+     Initial Abstraction: 23.486
+
+     Transform: SCS
+     Lag: 222.36
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 3.0184
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R140W140
+     Canvas X: 627752.922
+     Canvas Y: 2808702.141
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 83.382074
+     Downstream: JR230
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 1.5764
+     Curve Number: 62
+     Initial Abstraction: 18.968
+
+     Transform: SCS
+     Lag: 96.72
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.82833
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR230
+     Canvas X: 629508.009
+     Canvas Y: 2802791.846
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R230
+End:
+
+Reach: R230
+     Canvas X: 638808.474
+     Canvas Y: 2798321.622
+     From Canvas X: 629508.009
+     From Canvas Y: 2802791.846
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR240
+
+     Route: Muskingum
+     Muskingum K: 1.07
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R230W230
+     Canvas X: 632148.141
+     Canvas Y: 2802161.814
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 85.099236
+     Downstream: JR240
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 4.8803
+     Curve Number: 64
+     Initial Abstraction: 16.880
+
+     Transform: SCS
+     Lag: 98.04
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.84539
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R210W210
+     Canvas X: 641253.596
+     Canvas Y: 2799866.7
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 12.429352
+     Downstream: JR240
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.69589
+     Curve Number: 56
+     Initial Abstraction: 25.937
+
+     Transform: SCS
+     Lag: 58.32
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.12347
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR240
+     Canvas X: 638808.474
+     Canvas Y: 2798321.622
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R240
+End:
+
+Subbasin: R240W240
+     Canvas X: 642183.642
+     Canvas Y: 2790971.255
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 135.940700
+     Downstream: R240
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 4.4329
+     Curve Number: 60
+     Initial Abstraction: 21.167
+
+     Transform: SCS
+     Lag: 134.88
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 1.3505
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Reach: R240
+     Canvas X: 641600.0130535855
+     Canvas Y: 2788595.1394087244
+     From Canvas X: 638808.474
+     From Canvas Y: 2798321.622
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: Reservoir-1
+
+     Route: Muskingum
+     Muskingum K: 2.16
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Reservoir: Reservoir-1
+     Description: shanmeishuiku
+     Canvas X: 641600.0130535855
+     Canvas Y: 2788595.1394087244
+     Observed Hydrograph Gage: shuiku
+     Observed Stage Gage: Gage 1
+     Downstream: JR350
+
+     Route: None
+     Observed Pool Elevation Gage: Gage 1
+End:
+
+Subbasin: R270W270
+     Canvas X: 626432.856
+     Canvas Y: 2787776.096
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 75.037132
+     Downstream: JR280
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 3.8535
+     Curve Number: 70
+     Initial Abstraction: 26.126
+
+     Transform: SCS
+     Lag: 128.16
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.74543
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R250W250
+     Canvas X: 626072.838
+     Canvas Y: 2795981.506
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 74.482875
+     Downstream: JR280
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.97056
+     Curve Number: 77
+     Initial Abstraction: 18.209
+
+     Transform: SCS
+     Lag: 123.66
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.73994
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR280
+     Canvas X: 631758.122
+     Canvas Y: 2791691.291
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R280
+End:
+
+Reach: R280
+     Canvas X: 641358.601
+     Canvas Y: 2782510.833
+     From Canvas X: 631758.122
+     From Canvas Y: 2791691.291
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR350
+
+     Route: Muskingum
+     Muskingum K: 4.74
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R280W280
+     Canvas X: 635763.322
+     Canvas Y: 2789831.198
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 100.869673
+     Downstream: JR350
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 2.576019
+     Curve Number: 79
+     Initial Abstraction: 16.205
+
+     Transform: SCS
+     Lag: 140.52
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 1.0021
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR350
+     Canvas X: 641358.601
+     Canvas Y: 2782510.833
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R350
+End:
+
+Reach: R350
+     Canvas X: 643848.726
+     Canvas Y: 2780620.738
+     From Canvas X: 641358.601
+     From Canvas Y: 2782510.833
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR380
+
+     Route: Muskingum
+     Muskingum K: 0.9
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R370W370
+     Canvas X: 633948.231
+     Canvas Y: 2779495.682
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 119.053978
+     Downstream: JR380
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 1.7704
+     Curve Number: 73
+     Initial Abstraction: 22.547
+
+     Transform: SCS
+     Lag: 157.68
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 1.1827
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R350W350
+     Canvas X: 641538.61
+     Canvas Y: 2781670.791
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 8.834449
+     Downstream: JR380
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 4.1192
+     Curve Number: 75
+     Initial Abstraction: 20.32
+
+     Transform: SCS
+     Lag: 58.38
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.0877618
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR380
+     Canvas X: 643848.726
+     Canvas Y: 2780620.738
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R380
+End:
+
+Reach: R380
+     Canvas X: 649158.991
+     Canvas Y: 2779240.67
+     From Canvas X: 643848.726
+     From Canvas Y: 2780620.738
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR530
+
+     Route: Muskingum
+     Muskingum K: 1.62
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R260W260
+     Canvas X: 657439.404
+     Canvas Y: 2790101.212
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 254.502581
+     Downstream: JR530
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 3.4310
+     Curve Number: 77
+     Initial Abstraction: 18.209
+
+     Transform: SCS
+     Lag: 194.88
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 2.5283
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R530W530
+     Canvas X: 651169.091
+     Canvas Y: 2780980.756
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 92.172493
+     Downstream: JR530
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 13.849
+     Curve Number: 82
+     Initial Abstraction: 13.381
+
+     Transform: SCS
+     Lag: 102.54
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.91565
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R380W380
+     Canvas X: 645978.832
+     Canvas Y: 2781475.781
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 12.051214
+     Downstream: JR530
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 7.8959
+     Curve Number: 81
+     Initial Abstraction: 14.299
+
+     Transform: SCS
+     Lag: 87.78
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.11972
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR530
+     Canvas X: 649158.991
+     Canvas Y: 2779240.67
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R530
+End:
+
+Reach: R530
+     Canvas X: 653629.214
+     Canvas Y: 2775850.5
+     From Canvas X: 649158.991
+     From Canvas Y: 2779240.67
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: hl
+
+     Route: Muskingum
+     Muskingum K: 1.86
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Junction: hl
+     Canvas X: 653629.214
+     Canvas Y: 2775850.5
+     Label X: 16.0
+     Label Y: 0.0
+     Observed Hydrograph Gage: honglai
+     Downstream: R390
+End:
+
+Reach: R390
+     Canvas X: 648168.941
+     Canvas Y: 2764329.925
+     From Canvas X: 653629.214
+     From Canvas Y: 2775850.5
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: JR480
+
+     Route: Muskingum
+     Muskingum K: 4.65
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R390W390
+     Canvas X: 651274.096
+     Canvas Y: 2770465.231
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 149.390508
+     Downstream: JR480
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 8.0458
+     Curve Number: 81
+     Initial Abstraction: 23.832
+
+     Transform: SCS
+     Lag: 172.92
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 8.3702
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Subbasin: R490W490
+     Canvas X: 642228.645
+     Canvas Y: 2761809.799
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 52.214158
+     Downstream: JR480
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 14.909
+     Curve Number: 80
+     Initial Abstraction: 25.4
+
+     Transform: SCS
+     Lag: 108.84
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 2.9255
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Junction: JR480
+     Canvas X: 648168.941
+     Canvas Y: 2764329.925
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: R480
+End:
+
+Reach: R480
+     Canvas X: 649113.988
+     Canvas Y: 2764689.943
+     From Canvas X: 648168.941
+     From Canvas Y: 2764329.925
+     Label X: 16.0
+     Label Y: 0.0
+     Downstream: sl
+
+     Route: Muskingum
+     Muskingum K: 0.3
+     Muskingum x: 0.4
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: R480W480
+     Canvas X: 648378.952
+     Canvas Y: 2764464.932
+     Label X: 16.0
+     Label Y: 0.0
+     Area: 0.466198
+     Downstream: sl
+
+     Canopy: None
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 72.577
+     Curve Number: 95
+     Initial Abstraction: 5.3474
+
+     Transform: SCS
+     Lag: 13.8
+     Unitgraph Type: STANDARD
+
+     Baseflow: Recession
+     Recession Factor: 0.95
+     Initial Baseflow: 0.0261735
+     Threshold Flow to Peak Ratio: 0.045
+End:
+
+Basin Schematic Properties:
+     Last View N: 2766199.7337573254
+     Last View S: 2740906.406089267
+     Last View W: 616035.7312154812
+     Last View E: 666404.3406234246
+     Maximum View N: 2823192.864
+     Maximum View S: 2756304.524
+     Maximum View W: 575940.334
+     Maximum View E: 657439.404
+     Extent Method: Elements
+     Buffer: 0
+     Draw Icons: Yes
+     Draw Icon Labels: Name
+     Draw Map Objects: No
+     Draw Gridlines: No
+     Draw Flow Direction: No
+     Fix Element Locations: No
+     Fix Hydrologic Order: No
+End:

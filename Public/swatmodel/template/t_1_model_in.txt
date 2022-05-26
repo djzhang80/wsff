@@ -1,0 +1,2 @@
+r__maxtemp(){2001001-2010365}.tmp1.tmp 0
+r__mintemp(){2001001-2010365}.tmp1.tmp 0

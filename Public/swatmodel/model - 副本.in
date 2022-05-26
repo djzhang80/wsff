@@ -1,0 +1,31 @@
+r__CN2.mgt	-0.080423
+v__ALPHA_BF.gw	0.955665
+v__GW_DELAY.gw	71.7169
+v__GWQMN.gw	2.21267
+v__GW_REVAP.gw	0.0485956
+v__ESCO.hru	0.50403
+v__CH_N2.rte	0.049533
+v__CH_K2.rte	53.6869
+v__ALPHA_BNK.rte	0.078982
+r__SOL_AWC(1).sol	0.431432
+r__SOL_K(1).sol	-0.074498
+r__SOL_BD(1).sol	-0.284394
+v__RCHRG_DP.gw	0.42
+r__OV_N.hru	7.9
+
+
+
+r__CN2.mgt	0
+r__ALPHA_BF.gw	0
+r__GW_DELAY.gw	0
+v__GWQMN.gw	2.21267
+v__GW_REVAP.gw	0.0485956
+v__ESCO.hru	0.50403
+v__CH_N2.rte	0.049533
+v__CH_K2.rte	53.6869
+r__ALPHA_BNK.rte	0
+r__SOL_AWC(1).sol	0
+r__SOL_K(1).sol	0
+r__SOL_BD(1).sol	0
+v__RCHRG_DP.gw	0.42
+r__OV_N.hru	0

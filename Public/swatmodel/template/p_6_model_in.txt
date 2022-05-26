@@ -1,0 +1,1 @@
+r__precipitation(){2001001-2010365}.pcp1.pcp 0.05

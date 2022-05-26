@@ -1,0 +1,508 @@
+Meteorology: Met 1
+     Last Modified Date: 16 July 2015
+     Last Modified Time: 12:35:11
+     Version: 4.0
+     Unit System: Metric
+     Set Missing Data to Default: Yes
+     Precipitation Method: Inverse Distance Squared
+     Short-Wave Radiation Method: None
+     Long-Wave Radiation Method: None
+     Snowmelt Method: None
+     Evapotranspiration Method: No Evapotranspiration
+     Use Basin Model: NewProj
+End:
+
+Gage: shilong
+     Type: Recording
+End:
+
+Gage: guanqiao
+     Type: Recording
+End:
+
+Gage: xiping
+     Type: Recording
+End:
+
+Gage: anxi
+     Type: Recording
+End:
+
+Gage: honglai
+     Type: Recording
+End:
+
+Gage: weicuo
+     Type: Recording
+End:
+
+Gage: changhong
+     Type: Recording
+End:
+
+Gage: shangqing
+     Type: Recording
+End:
+
+Gage: penglai
+     Type: Recording
+End:
+
+Gage: luozhong
+     Type: Recording
+End:
+
+Gage: shantou
+     Type: Recording
+End:
+
+Gage: xitoupu
+     Type: Recording
+End:
+
+Gage: hutou
+     Type: Recording
+End:
+
+Gage: gande
+     Type: Recording
+End:
+
+Gage: dongguan
+     Type: Recording
+End:
+
+Gage: yongchun
+     Type: Recording
+End:
+
+Gage: dazhong
+     Type: Recording
+End:
+
+Gage: xianrong
+     Type: Recording
+End:
+
+Gage: penghu
+     Type: Recording
+End:
+
+Gage: huyang
+     Type: Recording
+End:
+
+Gage: kengzhaikou
+     Type: Recording
+End:
+
+Gage: jinxi
+     Type: Recording
+End:
+
+Gage: xita
+     Type: Recording
+End:
+
+Gage: taozhou
+     Type: Recording
+End:
+
+Gage: linjiao
+     Type: Recording
+End:
+
+Gage: luozhai
+     Type: Recording
+End:
+
+Gage: yingdu
+     Type: Recording
+End:
+
+Gage: huangyang
+     Type: Recording
+End:
+
+Gage: shanmei
+     Type: Recording
+End:
+
+Gage: nanan
+     Type: Recording
+End:
+
+Precip Method Parameters: Inverse Distance
+     Use Indexing: No
+End:
+
+Subbasin: R90W90
+     Node: 13
+     Node Latitude Degrees: 25.375
+     Node Longitude Degrees: 117.75833333333334
+     Node Weight: 1
+End:
+
+Subbasin: R60W60
+     Node: 3
+     Node Latitude Degrees: 25.474999999999998
+     Node Longitude Degrees: 117.80833333333334
+     Node Weight: 1
+End:
+
+Subbasin: R50W50
+     Node: 4
+     Node Latitude Degrees: 25.474999999999998
+     Node Longitude Degrees: 117.92500000000001
+     Node Weight: 1
+End:
+
+Subbasin: R70W70
+     Node: 9
+     Node Latitude Degrees: 25.425
+     Node Longitude Degrees: 117.85833333333333
+     Node Weight: 1
+End:
+
+Subbasin: R180W180
+     Node: 21
+     Node Latitude Degrees: 25.291666666666668
+     Node Longitude Degrees: 117.85833333333333
+     Node Weight: 1
+End:
+
+Subbasin: R110W110
+     Node: 11
+     Node Latitude Degrees: 25.375
+     Node Longitude Degrees: 117.90833333333335
+     Node Weight: 1
+End:
+
+Subbasin: R200W200
+     Node: 23
+     Node Latitude Degrees: 25.275
+     Node Longitude Degrees: 117.95833333333334
+     Node Weight: 1
+End:
+
+Subbasin: R190W190
+     Node: 15
+     Node Latitude Degrees: 25.325
+     Node Longitude Degrees: 117.94166666666668
+     Node Weight: 1
+End:
+
+Subbasin: R20W20
+     Node: 2
+     Node Latitude Degrees: 25.508333333333333
+     Node Longitude Degrees: 118.075
+     Node Weight: 1
+End:
+
+Subbasin: R10W10
+     Node: 1
+     Node Latitude Degrees: 25.525
+     Node Longitude Degrees: 118.00833333333334
+     Node Weight: 1
+End:
+
+Subbasin: R30W30
+     Node: 6
+     Node Latitude Degrees: 25.391666666666666
+     Node Longitude Degrees: 118.025
+     Node Weight: 1
+End:
+
+Subbasin: R170W170
+     Node: 14
+     Node Latitude Degrees: 25.375
+     Node Longitude Degrees: 117.95833333333334
+     Node Weight: 1
+End:
+
+Subbasin: R330W330
+     Node: 35
+     Node Latitude Degrees: 25.15833333333333
+     Node Longitude Degrees: 117.84166666666667
+     Node Weight: 1
+End:
+
+Subbasin: R300W300
+     Node: 25
+     Node Latitude Degrees: 25.208333333333332
+     Node Longitude Degrees: 117.875
+     Node Weight: 1
+End:
+
+Subbasin: R340W340
+     Node: 34
+     Node Latitude Degrees: 25.175
+     Node Longitude Degrees: 117.94166666666668
+     Node Weight: 1
+End:
+
+Subbasin: R400W400
+     Node: 30
+     Node Latitude Degrees: 25.108333333333334
+     Node Longitude Degrees: 117.92500000000001
+     Node Weight: 1
+End:
+
+Subbasin: R220W220
+     Node: 24
+     Node Latitude Degrees: 25.275
+     Node Longitude Degrees: 118.04166666666667
+     Node Weight: 1
+End:
+
+Subbasin: R310W310
+     Node: 25
+     Node Latitude Degrees: 25.141666666666666
+     Node Longitude Degrees: 118.025
+     Node Weight: 1
+End:
+
+Subbasin: R290W290
+     Node: 28
+     Node Latitude Degrees: 25.224999999999998
+     Node Longitude Degrees: 118.15833333333335
+     Node Weight: 1
+End:
+
+Subbasin: R320W320
+     Node: 27
+     Node Latitude Degrees: 25.175
+     Node Longitude Degrees: 118.10833333333333
+     Node Weight: 1
+End:
+
+Subbasin: R430W430
+     Node: 47
+     Node Latitude Degrees: 24.991666666666667
+     Node Longitude Degrees: 117.94166666666668
+     Node Weight: 1
+End:
+
+Subbasin: R440W440
+     Node: 50
+     Node Latitude Degrees: 24.941666666666666
+     Node Longitude Degrees: 118.075
+     Node Weight: 1
+End:
+
+Subbasin: R360W360
+     Node: 36
+     Node Latitude Degrees: 25.141666666666666
+     Node Longitude Degrees: 118.125
+     Node Weight: 1
+End:
+
+Subbasin: R420W420
+     Node: 43
+     Node Latitude Degrees: 25.058333333333334
+     Node Longitude Degrees: 118.125
+     Node Weight: 1
+End:
+
+Subbasin: R520W520
+     Node: 51
+     Node Latitude Degrees: 25.075
+     Node Longitude Degrees: 118.19166666666668
+     Node Weight: 1
+End:
+
+Subbasin: R460W460
+     Node: 49
+     Node Latitude Degrees: 24.958333333333332
+     Node Longitude Degrees: 118.24166666666667
+     Node Weight: 1
+End:
+
+Subbasin: R410W410
+     Node: 26
+     Node Latitude Degrees: 25.091666666666665
+     Node Longitude Degrees: 118.24166666666667
+     Node Weight: 1
+End:
+
+Subbasin: R450W450
+     Node: 42
+     Node Latitude Degrees: 25.041666666666668
+     Node Longitude Degrees: 118.34166666666667
+     Node Weight: 1
+End:
+
+Subbasin: R470W470
+     Node: 41
+     Node Latitude Degrees: 25.041666666666668
+     Node Longitude Degrees: 118.39166666666668
+     Node Weight: 1
+End:
+
+Subbasin: R510W510
+     Node: 48
+     Node Latitude Degrees: 24.90833333333333
+     Node Longitude Degrees: 118.30833333333334
+     Node Weight: 1
+End:
+
+Subbasin: R500W500
+     Node: 45
+     Node Latitude Degrees: 24.991666666666667
+     Node Longitude Degrees: 118.40833333333335
+     Node Weight: 1
+End:
+
+Subbasin: R40W40
+     Node: 0
+     Node Latitude Degrees: 25.458333333333332
+     Node Longitude Degrees: 118.45833333333334
+     Node Weight: 1
+End:
+
+Subbasin: R80W80
+     Node: 5
+     Node Latitude Degrees: 25.458333333333332
+     Node Longitude Degrees: 118.375
+     Node Weight: 1
+End:
+
+Subbasin: R100W100
+     Node: 7
+     Node Latitude Degrees: 25.40833333333333
+     Node Longitude Degrees: 118.35833333333333
+     Node Weight: 1
+End:
+
+Subbasin: R120W120
+     Node: 8
+     Node Latitude Degrees: 25.391666666666666
+     Node Longitude Degrees: 118.44166666666668
+     Node Weight: 1
+End:
+
+Subbasin: R160W160
+     Node: 19
+     Node Latitude Degrees: 25.325
+     Node Longitude Degrees: 118.47500000000001
+     Node Weight: 1
+End:
+
+Subbasin: R130W130
+     Node: 12
+     Node Latitude Degrees: 25.358333333333334
+     Node Longitude Degrees: 118.39166666666668
+     Node Weight: 1
+End:
+
+Subbasin: R150W150
+     Node: 20
+     Node Latitude Degrees: 25.375
+     Node Longitude Degrees: 118.17500000000001
+     Node Weight: 1
+End:
+
+Subbasin: R140W140
+     Node: 10
+     Node Latitude Degrees: 25.391666666666666
+     Node Longitude Degrees: 118.275
+     Node Weight: 1
+End:
+
+Subbasin: R230W230
+     Node: 17
+     Node Latitude Degrees: 25.325
+     Node Longitude Degrees: 118.325
+     Node Weight: 1
+End:
+
+Subbasin: R210W210
+     Node: 16
+     Node Latitude Degrees: 25.308333333333334
+     Node Longitude Degrees: 118.40833333333335
+     Node Weight: 1
+End:
+
+Subbasin: R270W270
+     Node: 29
+     Node Latitude Degrees: 25.191666666666666
+     Node Longitude Degrees: 118.25833333333334
+     Node Weight: 1
+End:
+
+Subbasin: R250W250
+     Node: 22
+     Node Latitude Degrees: 25.275
+     Node Longitude Degrees: 118.25833333333334
+     Node Weight: 1
+End:
+
+Subbasin: R240W240
+     Node: 30
+     Node Latitude Degrees: 25.224999999999998
+     Node Longitude Degrees: 118.42500000000001
+     Node Weight: 1
+End:
+
+Subbasin: R280W280
+     Node: 31
+     Node Latitude Degrees: 25.208333333333332
+     Node Longitude Degrees: 118.35833333333333
+     Node Weight: 1
+End:
+
+Subbasin: R370W370
+     Node: 37
+     Node Latitude Degrees: 25.125
+     Node Longitude Degrees: 118.34166666666667
+     Node Weight: 1
+End:
+
+Subbasin: R350W350
+     Node: 32
+     Node Latitude Degrees: 25.141666666666666
+     Node Longitude Degrees: 118.40833333333335
+     Node Weight: 1
+End:
+
+Subbasin: R260W260
+     Node: 18
+     Node Latitude Degrees: 25.224999999999998
+     Node Longitude Degrees: 118.25833333333334
+     Node Weight: 1
+End:
+
+Subbasin: R380W380
+     Node: 33
+     Node Latitude Degrees: 25.141666666666666
+     Node Longitude Degrees: 118.45833333333334
+     Node Weight: 1
+End:
+
+Subbasin: R530W530
+     Node: 52
+     Node Latitude Degrees: 25.141666666666666
+     Node Longitude Degrees: 118.50833333333334
+     Node Weight: 1
+End:
+
+Subbasin: R390W390
+     Node: 44
+     Node Latitude Degrees: 25.041666666666668
+     Node Longitude Degrees: 118.50833333333334
+     Node Weight: 1
+End:
+
+Subbasin: R490W490
+     Node: 46
+     Node Latitude Degrees: 24.958333333333332
+     Node Longitude Degrees: 118.40833333333335
+     Node Weight: 1
+End:
+
+Subbasin: R480W480
+     Node: 40
+     Node Latitude Degrees: 24.991666666666667
+     Node Longitude Degrees: 118.47500000000001
+     Node Weight: 1
+End:

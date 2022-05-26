@@ -1,0 +1,5 @@
+cd %1%
+echo abc
+rem copy %cd%\template\%2% model.in /Y
+rem Swat_Edit.exe
+sswat.exe %3 %4
